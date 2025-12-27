@@ -6,8 +6,7 @@ export function UploadModal({ isOpen, onClose, onUpload }: UploadModalProps) {
    const [isDragging, setIsDragging] = useState(false);
    const fileInputRef = useRef<HTMLInputElement>(null);
    
-   if (!isOpen)
-   {
+   if (!isOpen) {
       return null;
    }
 
